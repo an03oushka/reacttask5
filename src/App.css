@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.input-container {
+  margin: 20px 50; /* Add margin only vertically to create space between label and input */
+}
+label {
+  font-size: 20px;
+  display: block;
+}
+
+input[type="date"] {
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(62, 143, 219);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.age-calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.age-calculator {
+  text-align: center;
+ 
+}
+
+.button-container {
+  margin-top: 20px; /* Add margin only at the top to create space between input and button */
+}
